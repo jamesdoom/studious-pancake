@@ -1,16 +1,282 @@
 body {
+   
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
+
 }
 
-.header {
+.container {
+
     display: flex;
-    background-color: #1F2937;
+    flex-direction: column;;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
-a {
-    size: 18px;
+.headerSection {
+
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.headerLeft {
+
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.logoText {
+
+    font-size: 24px;
+    margin-top: 20px;
+  
+
+}
+
+.heroMain {
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.heroSecondary {
+
+    font-size: 18px;
     color: #E5E7EB;
+    margin-top: 20px;
+}
+
+.headerButton {
+
+        background-color: #3882f6;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+ 
+}
+
+.headerRight {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: flex-end;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-right: 100px;
+    margin-left: 50px;
+
+}
+
+ ul {
+
+     display: flex;
+     list-style: none;
+     
+}
+
+ li {
+
+     color: #E5E7EB;
+     font-size: 18pt;
+     margin-right: 20px;
+}
+
+.imgBack {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.infoSection {
+
+    display: flex;
+    flex-direction: column;
+    margin: 40px 100px 80px 100px;
+
+}
+
+.infoHead {
+
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36pt;
+    font-weight: 800;
+
+}
+
+.boxBack {
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.box {
+    box-sizing: border-box;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    margin: 20px;
+ 
+}
+
+.boxSub {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxText {
+
+    box-sizing: border-box;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+
+.quoteSection {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.q {
+
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.author {
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14pt;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.bannerSection {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+
+.bannerBack {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+
+}
+
+.bannerLeft {
+
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+     
+}
+
+.bannerRight {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+
+}
+
+button {
+
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+ 
+}
+
+.bannerBold {
+
+    font-size: 18pt;
+    font-weight: 800;
+}
+
+.bannerText {
+
+    font-size: 10pt;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+
 }
